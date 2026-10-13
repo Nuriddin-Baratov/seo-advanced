@@ -4,7 +4,7 @@ import React from 'react'
 export async function generateMetadata({ params }) {
   const {pro} = await params;
  
-  // fetch post information
+
   const post = await fetch(`https://api.escuelajs.co/api/v1/products/${pro}`).then((res) =>
     res.json()
   )
