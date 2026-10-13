@@ -1,7 +1,7 @@
 import React from 'react'
 
 export const metadata = {
-  title: "Contact Oson Prava",
+  title: "contact Oson Prava",
   description: "Praaaaaaaaaaaaaavvvvvvvvvaaaaaaaaaaaaaaaa",
 };
 

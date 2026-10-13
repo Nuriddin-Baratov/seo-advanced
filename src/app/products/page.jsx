@@ -3,7 +3,7 @@ import ProductCard from '../../components/ProductCard'
 import React from 'react'
 
 export const metadata = {
-  title: "Products Oson Prava",
+  title: "products Oson Prava",
   description: "Praaaaaaaaaaaaaavvvvvvvvvaaaaaaaaaaaaaaaa",
 };
 
