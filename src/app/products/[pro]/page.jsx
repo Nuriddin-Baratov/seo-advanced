@@ -22,7 +22,7 @@ async function SinglePage({ params }) {
   const res = await fetch(`https://api.escuelajs.co/api/v1/products/${pro}`);
   const data = await res.json();
   console.log(data);
-
+ 
   return (
     <div className="mx-auto max-w-5xl p-4 sm:p-6 lg:p-8">
       <SinglePageCard data={data} />
